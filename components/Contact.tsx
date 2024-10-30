@@ -50,7 +50,7 @@ const Contact = () => {
         alert("Failed to send message. Please try again later.");
       }
     } catch (error) {
-      alert("An error occurred. Please try again later.");
+      alert(error);
     } finally {
       setLoading(false);
     }
