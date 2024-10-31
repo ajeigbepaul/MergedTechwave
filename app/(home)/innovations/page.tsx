@@ -1,9 +1,12 @@
+"use client";
 import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import Image from "next/image";
 import React from "react";
-
+// import { useRouter } from "next/navigation";
+import Link from "next/link";
 const Innovation = () => {
+  // const router = useRouter();
   return (
     <section className="w-full lg:mt-14 mt-10 min-h-screen lg:px-24 md:px-4 px-4">
       <div className="w-full lg:h-auto md:h-auto md:mt-24">
@@ -20,8 +23,7 @@ const Innovation = () => {
               </div>
               <Button
                 name="Book a session"
-                icon
-                buttonClass="p-3 w-fit bg-brandcolor text-white"
+                buttonClass="p-3 w-fit text-[14px] bg-brandcolor text-white"
               />
             </div>
           </div>
@@ -116,11 +118,13 @@ const Innovation = () => {
                     {`SacredEyes is a powerful app designed to combat easy access to pornography by automatically blocking browsers from accessing adult content. Once installed, it disables access to all known pornographic sites and prevents redirects to such content, helping users maintain a safer and healthier online environment.`}
                   </p>
                 </div>
-                <Button
-                  icon
-                  name="Book a session"
-                  buttonClass="p-3 w-fit bg-brandcolor text-white"
-                />
+                <Link href={"https://sacredeyes.org/"} target="_blank">
+                  <Button
+                    icon2
+                    name="Check site"
+                    buttonClass="p-3 w-fit bg-brandcolor text-white text-[14px]"
+                  />
+                </Link>
               </div>
             </div>
           </div>
@@ -159,11 +163,11 @@ const Innovation = () => {
                     {`SacredEyes is a powerful app designed to combat easy access to pornography by automatically blocking browsers from accessing adult content. Once installed, it disables access to all known pornographic sites and prevents redirects to such content, helping users maintain a safer and healthier online environment.`}
                   </p>
                 </div>
-                <Button
-                  icon
+                {/* <Button
+                  icon2
                   name="Book a session"
-                  buttonClass="p-3 w-fit bg-[#162BA5] text-white"
-                />
+                  buttonClass="p-3 w-fit bg-[#162BA5] text-white text-[14px]"
+                /> */}
               </div>
             </div>
           </div>

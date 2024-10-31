@@ -158,7 +158,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4">
           <div>
             <div className="relative h-12">
-              <div className="w-16 h-16 rounded-full bg-brandcolor border-2 border-black" />
+              <div className="w-16 h-16 rounded-full bg-brandcolor" />
               <p className="w-fit z-50 absolute top-4 left-1 text-3xl font-semibold">
                 <span className="text-white">Wha</span>t we do
               </p>
@@ -179,7 +179,7 @@ const About = () => {
                   key={index}
                   onMouseEnter={() => handleMouseEnter(index)}
                   onMouseLeave={handleMouseLeave}
-                  className={`relative text-sm lg:w-[80%] w-[100%] px-4 flex flex-col cursor-pointer items-start justify-center rounded-xl shadow-xl shadow-[#B7CFFF] border-l-2 transition-all duration-300 overflow-hidden ${
+                  className={`relative text-sm lg:w-[80%] w-[100%] px-4 flex flex-col cursor-pointer items-start justify-center rounded-xl shadow-[#B7CFFF] shadow-sm border-l-2 transition-all duration-300 overflow-hidden ${
                     hovered === index
                       ? "border-l-brandcolor h-40"
                       : "border-l-[#B7CFFF] h-20"

@@ -10,14 +10,38 @@ const Pitch = () => {
   return (
     <section className="w-full min-h-screen md:mt-14 -mt-2">
       <div className="w-full lg:px-24 px-4">
-        <div className="w-full lg:h-[80vh] md:h-[70vh] h-[60vh] lg:bg-black md:bg-black bg-black relative rounded">
-          <Image
-            src={"/pitchgradbg.svg"}
-            alt="pitch"
-            width={1100}
-            height={500}
-            className={`object-contain absolute top-0`}
-          />
+        <div className="w-full lg:h-[80vh] md:h-[70vh] h-[50vh] lg:bg-black md:bg-black bg-black relative rounded-2xl">
+          <div className="w-full flex items-end absolute lg:bottom-0  h-full">
+            <Image
+              src={"/pitchgradient.svg"}
+              alt="pitch"
+              width={1100}
+              height={500}
+              className={`object-cover`}
+            />
+            <Image
+              src={"/whatwedoleft.svg"}
+              alt="aboutus"
+              width={50}
+              height={50}
+              className={`object-contain absolute md:top-4 bottom-4 right-0`}
+            />
+            <Image
+              src={"/whatwedoright.svg"}
+              alt="aboutus"
+              width={50}
+              height={50}
+              className={`object-contain absolute md:left-[30%] md:top-[18%] top-20`}
+            />
+            <Image
+              src={"/whatwedoright.svg"}
+              alt="aboutus"
+              width={50}
+              height={50}
+              className={`object-contain absolute md:right-[30%] md:top-[65%] top-20`}
+            />
+          </div>
+          {/* 
           <Image
             src={"/pitchgrad.svg"}
             alt="pitch"
@@ -45,9 +69,9 @@ const Pitch = () => {
             width={50}
             height={50}
             className={`object-contain absolute md:right-[30%] md:top-[65%] top-20`}
-          />
+          /> */}
           <div className="absolute w-full left-[0%] top-[30%] flex items-center flex-col justify-center">
-            <h1 className="text-white text-4xl font-bold font-grotesque">
+            <h1 className="text-white lg:text-5xl md:text-4xl text-3xl font-bold font-grotesque">
               Pitch Development
             </h1>
             <Button
