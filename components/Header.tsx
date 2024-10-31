@@ -14,7 +14,7 @@ const Header = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="relative px-24 max-lg:px-16 max-md:px-4 py-8 max-lg:py-6 max-md:py-4 border-b border-[#B7CFFF]">
+    <header className="relative px-24 max-lg:px-16 gap-2 bg-orange-red max-md:px-4 py-8 max-lg:py-6 max-md:py-4 border-b border-[#B7CFFF]">
     <div className="w-full flex items-center justify-center ">
       <div className="w-full flex items-center justify-between">
         <Link href={"/"}>

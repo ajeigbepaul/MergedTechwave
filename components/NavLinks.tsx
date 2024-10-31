@@ -60,13 +60,13 @@ const NavLinks = ({ closeMenu }: { closeMenu: () => void }) => {
     router.push(link);
   };
   return (
-    <div className="lg:flex items-center w-full">
+    <div className="lg:flex items-center gap-[6px] w-full">
       {navItems.map((item: navItemProps) => (
         <div
           onClick={() => handleNavClick(item.id, item.link)}
           key={item.id}
           className={cn(
-            "flex items-center my-8 text-[18px] max-md:text-[14px] lg:text-[14px] font-normal mx-3 transition-all duration-75 ease-in list-none w-fit cursor-pointer ",
+            "flex items-center my-[28px]  text-[18px] max-md:text-[14px] lg:text-[14px] font-normal mx-3 transition-all duration-75 ease-in list-none w-fit cursor-pointer ",
             activeItem === item.id ||
               (item.link === "#" && activeItem === item.id)
               ? "font-semibold text-[#181818]"
