@@ -48,7 +48,8 @@ export const banner = [
   {
     contour: "/bgcontour.svg",
     imagebg: "/bg1green.svg",
-    image: "/techwavebg1.png",
+     image: "/techwavebg1.png",
+    // image: "/businessp.jpg",
     description1: "Forging Dreams into",
     emphasytext: "Digital Realities",
     description1b: "",
@@ -59,7 +60,8 @@ export const banner = [
   {
     contour: "/bgblackcontour.svg",
     imagebg: "/bg1black.svg",
-    image: "/techwavebg2.png",
+    // image: "/techwavebg2.png",
+    image:"/teams.jpg",
     description1: "Research",
     description1b: "& Consulting",
     emphasytext: "Innovation,",

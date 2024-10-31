@@ -18,7 +18,8 @@ const Experience = () => {
             <span className="text-brandcolor">industries.</span>
           </h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-4 mt-10">
+        
+        <div className="md:grid w-full md:grid-cols-3 flex overflow-x-auto gap-4 mt-10">
           {experience.map((item: experienceProp, idx: number) => (
             <Card
               key={idx}
@@ -27,7 +28,7 @@ const Experience = () => {
               title={item?.title}
               descri={item?.descri}
               bgcolor={item?.cardColor}
-              cardClass={"h-[280px] rounded-3xl"}
+              cardClass={"h-[280px] max-md:h-[250px] !min-w-[250px] md:!min-w-0 rounded-3xl"}
               id={2}
               isborder="w-12 h-12 border border-brandcolor"
               addedStyle="text-2xl font-grotesque"

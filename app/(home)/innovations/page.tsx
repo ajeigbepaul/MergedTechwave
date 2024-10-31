@@ -36,14 +36,14 @@ const Innovation = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:auto md:h-auto h-auto mb-10 lg:mt-20 md:mt-14 mt-0">
+      <div className="w-full lg:auto md:h-auto h-auto mb-10 lg:mt-20 md:mt-14 mt-14">
         <Heading
           noborder
           name="Our personal projects"
           desc="These personal projects highlight our commitment to innovation and impactful solutions."
         />
         <div className="w-full lg:mt-36 md:mt-20 mt-0">
-          <div className="w-full h-full grid md:grid-cols-2 gap-8">
+          {/* <div className="w-full h-full grid md:grid-cols-2 gap-8">
             <div className="w-full h-full flex items-start md:mt-4 mt-10 justify-center">
               <div className="flex flex-col space-y-4 w-[100%]">
                 <div className="flex flex-col space-y-6 mb-6">
@@ -80,6 +80,48 @@ const Innovation = () => {
                 height={400}
                 className="object-contain"
               />
+            </div>
+          </div> */}
+          <div className="w-full h-full grid md:grid-cols-2 gap-8">
+            {/* Second Column (Image) - Ordered First on Mobile */}
+            <div className="w-full h-full relative flex items-center justify-center order-first md:order-none">
+              <Image
+                src={"/innovationcard2.png"}
+                alt="bannerimg"
+                width={450}
+                height={400}
+                className="object-contain"
+              />
+            </div>
+
+            {/* First Column (Text Content) */}
+            <div className="w-full h-full flex items-start md:mt-4 mt-10 justify-center">
+              <div className="flex flex-col space-y-4 w-[100%]">
+                <div className="flex flex-col space-y-6 mb-6">
+                  <h1 className="text-lg font-semibold text-gold">
+                    Coming soon
+                  </h1>
+                  <Image
+                    src={"/sacredeyeblack.png"}
+                    alt="cardicon"
+                    width={100}
+                    height={50}
+                    className="object-cover"
+                  />
+                  <h1 className="text-2xl text-black font-bold text-left font-grotesque w-[73%]">
+                    Empowering Online Safety, Blocking Access to Pornographic
+                    Content
+                  </h1>
+                  <p className="text-[14px] text-subtext text-left w-full">
+                    {`SacredEyes is a powerful app designed to combat easy access to pornography by automatically blocking browsers from accessing adult content. Once installed, it disables access to all known pornographic sites and prevents redirects to such content, helping users maintain a safer and healthier online environment.`}
+                  </p>
+                </div>
+                <Button
+                  icon
+                  name="Book a session"
+                  buttonClass="p-3 w-fit bg-brandcolor text-white"
+                />
+              </div>
             </div>
           </div>
         </div>

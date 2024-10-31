@@ -50,9 +50,9 @@ const About = () => {
         {/* Text and button box for desktop and tablet (hidden on mobile) */}
         <div className="lg:w-[60%] md:w-[50%] md:flex hidden flex-col space-y-2 rounded-xl p-4 px-4  bg-black border-4 border-brandcolor absolute left-[30px] lg:-bottom-32 -bottom-32">
           <p className="text-[30px] max-lg:text-[22px] max-md:text-[16px] leading-10 w-[100%] text-white font-semibold font-grotesque">
-            Techwave Africa is a Faith-Driven Tech Startup with the vision to
-            build innovative solutions that bring answers to the problem and
-            needs of businesses and individuals around the world.
+            Techwave Africa is a Tech Startup with the vision to build
+            innovative solutions that bring answers to the problem and needs of
+            businesses and individuals around the world.
           </p>
           <div className="w-full lg:pt-8">
             <Button name="Book a session" buttonClass="p-2 w-36 bg-white " />
@@ -131,7 +131,30 @@ const About = () => {
       </div>
 
       {/* What We Do Section */}
-      <div className="w-full lg:h-auto lg:px-4 px-4 md:h-[50vh] h-[85vh] pb-10 flex flex-col lg:mt-32 md:mt-24 mt-20 space-x-2 p-0 relative ">
+      <div className="w-full lg:h-auto lg:px-4 px-4 md:h-[50vh] h-auto pt-40 md:pt-0 pb-10 flex flex-col lg:mt-32 md:mt-24 mt-48 space-x-2 p-0 relative ">
+        <div className="w-full md:hidden flex mb-0 absolute left-8">
+          <Image
+            src={"/aboutuscardl.png"}
+            alt="aboutus"
+            width={70}
+            height={70}
+            className="object-contain absolute -left-[40px]  bottom-8"
+          />
+          <Image
+            src={"/aboutuscard.png"}
+            alt="aboutus"
+            width={230}
+            height={200}
+            className="object-contain absolute left-4 bottom-20"
+          />
+          <Image
+            src={"/aboutuscardr.png"}
+            alt="aboutus"
+            width={50}
+            height={50}
+            className="object-contain absolute  left-[80%] bottom-60"
+          />
+        </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4">
           <div>
             <div className="relative h-12">
@@ -156,7 +179,7 @@ const About = () => {
                   key={index}
                   onMouseEnter={() => handleMouseEnter(index)}
                   onMouseLeave={handleMouseLeave}
-                  className={`relative text-sm lg:w-[80%] w-[100%] px-4 flex flex-col cursor-pointer items-start justify-center rounded-xl shadow-2xl shadow-[#B7CFFF] border-l-2 transition-all duration-300 overflow-hidden ${
+                  className={`relative text-sm lg:w-[80%] w-[100%] px-4 flex flex-col cursor-pointer items-start justify-center rounded-xl shadow-xl shadow-[#B7CFFF] border-l-2 transition-all duration-300 overflow-hidden ${
                     hovered === index
                       ? "border-l-brandcolor h-40"
                       : "border-l-[#B7CFFF] h-20"
@@ -182,7 +205,7 @@ const About = () => {
         </div>
 
         {/* Decorative Images */}
-        <div className="w-full lg:mt-24 mb-0">
+        <div className="w-full hidden md:flex lg:mt-24 mb-0">
           <Image
             src={"/aboutuscardl.png"}
             alt="aboutus"

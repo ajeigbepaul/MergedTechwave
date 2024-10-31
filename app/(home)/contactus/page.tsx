@@ -24,7 +24,7 @@ const Contactus = () => {
               height={400}
               className="object-contain"
             />
-            <div className="lg:flex items-start lg:p-0 p-4 mt-5 space-x-4">
+            <div className="md:flex items-start lg:p-0 p-4 mt-5 space-x-4">
               <div className="text-black flex flex-col gap-4 mb-8">
                 <p className="font-semibold">Contact information</p>
                 <div className="flex flex-col gap-1 font-light lg:text-sm text-lg text-[#7A8AAB] space-y-3">

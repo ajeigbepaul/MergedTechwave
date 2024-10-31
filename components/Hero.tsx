@@ -20,11 +20,11 @@ const Hero = () => {
           effect={"fade"}
           modules={[EffectFade, Autoplay]}
           slidesPerView={1}
-          // loop={true}
-          // autoplay={{
-          //   delay: 3500,
-          //   disableOnInteraction: false,
-          // }}
+          loop={true}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
           className="w-full scrollbar-none h-full"
         >
           {banner.map((banr, i) => (

@@ -4,10 +4,10 @@ import React from "react";
 const Workflow = () => {
   return (
     <section className="w-full min-h-screen md:mt-14 mt-10 relative">
-      <Image src="/workflowdir.svg" alt="flowthroughaimg" height={144} width={200} className="absolute contain h-[1000px] z-20 lg:left-[40%] md:left-[34%] left-[30%] top-40 "/>
+      <Image src="/workflowdir.svg" alt="flowthroughaimg" height={144} width={200} className="absolute md:flex contain h-[1000px] z-20 lg:left-[40%] md:left-[34%] left-[30%] lg:top-40 md:top-52 hidden "/>
       <div className="w-full lg:h-auto md:h-[60vh] h-auto md:px-24 px-0">
-        <div className="text-2xl relative mt-24 h-10 px-4  w-full">
-          <span className=" w-40">
+        <div className="text-2xl relative lg:mt-20 mt-14 h-10 px-4  w-full">
+          <span className=" md:w-40 w-20">
             <Image
               src={"/workflow.svg"}
               alt="bannerimg"
@@ -16,12 +16,12 @@ const Workflow = () => {
               className="absolute object-contain -bottom-2"
             />
           </span>
-          <h2 className="text-5xl font-bold text-black font-grotesque">
+          <h2 className="md:text-5xl text-3xl font-extrabold text-black font-grotesque">
             {" "}
             Workflow
           </h2>
         </div>
-        <div className="w-full lg:h-[60vh] md:h-[40vh] grid lg:grid-cols-2 md:grid-cols-2 gap-8 mt-10">
+        <div className="w-full lg:h-[60vh] h-auto md:h-[40vh] grid lg:grid-cols-2 md:grid-cols-2 gap-8 mt-10">
           <div className="w-full flex items-start justify-start">
             {" "}
             <div
@@ -40,7 +40,7 @@ const Workflow = () => {
                   />
                 </div>
               </div>
-              <h2 className={`text-black text-sm px-2 font-semibold `}>
+              <h2 className={`text-black text-[18px] font-grotesque px-2 font-bold `}>
                 {"Discovery"}
               </h2>
               <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-subtext text-xs">
@@ -68,7 +68,7 @@ const Workflow = () => {
                   />
                 </div>
               </div>
-              <h2 className={`text-black text-sm px-2 font-semibold `}>
+              <h2 className={`text-black px-2 text-[18px] font-grotesque font-bold `}>
                 {"Planning"}
               </h2>
               <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-subtext text-xs">
@@ -100,7 +100,7 @@ const Workflow = () => {
                   />
                 </div>
               </div>
-              <h2 className={`text-white text-sm px-2 font-semibold `}>
+              <h2 className={`text-white text-[18px] font-grotesque px-2 font-bold `}>
                 {"Design & Development"}
               </h2>
               <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-white text-xs">
@@ -128,7 +128,7 @@ const Workflow = () => {
                   />
                 </div>
               </div>
-              <h2 className={`text-white text-sm px-2 font-semibold `}>
+              <h2 className={`text-white text-[18px] font-grotesque font-bold px-2  `}>
                 {"Deployment"}
               </h2>
               <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-white text-xs">
@@ -160,7 +160,7 @@ const Workflow = () => {
                   />
                 </div>
               </div>
-              <h2 className={`text-black text-sm px-2 font-semibold `}>
+              <h2 className={`text-black  px-2 text-[18px] font-grotesque font-bold `}>
                 {"Ongoing Support & Optimization"}
               </h2>
               <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-subtext text-xs">
