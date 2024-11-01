@@ -17,8 +17,8 @@ const Button = ({ name,icon2, onclick, buttonClass, icon }: buttonProps) => {
       className={`${buttonClass} rounded-full flex items-center justify-center`}
     >
       {name}
-      {icon2 && <MdOutlineArrowOutward className="ml-4" />}
-      {icon && <FaArrowRight className="ml-4" />}
+      {icon2 && <MdOutlineArrowOutward className="ml-2" />}
+      {icon && <FaArrowRight className="ml-2" />}
     </button>
   );
 };

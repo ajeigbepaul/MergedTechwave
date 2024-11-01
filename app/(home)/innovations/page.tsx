@@ -121,7 +121,7 @@ const Innovation = () => {
                 <Link href={"https://sacredeyes.org/"} target="_blank">
                   <Button
                     icon2
-                    name="Check site"
+                    name="View Website"
                     buttonClass="p-3 w-fit bg-brandcolor text-white text-[14px]"
                   />
                 </Link>
