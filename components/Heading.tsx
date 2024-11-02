@@ -21,7 +21,7 @@ const Heading = ({
       >
         {name}
       </div>
-      <h2 className={`text-black font-bold md:text-3xl text-2xl ${addwidth ? addwidth :"md:w-[50%]"} w-full text-center mt-5 font-grotesque`}>
+      <h2 className={`text-black font-bold md:text-3xl text-[20px] ${addwidth ? addwidth :"md:w-[50%]"} w-full text-center mt-5 font-grotesque`}>
         {desc}
       </h2>
     </div>
