@@ -27,7 +27,7 @@ const MobileNav = ({
       </div>
       <nav className="p-0 h-full w-full">
         <div className="h-full overflow-y-auto w-full"> {/* Ensure no overflow on x-axis */}
-          <NavLinks />
+          <NavLinks closeMenu={closeMenu} />
         </div>
       </nav>
     </div>

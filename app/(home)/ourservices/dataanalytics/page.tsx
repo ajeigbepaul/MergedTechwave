@@ -6,8 +6,8 @@ import React from "react";
 
 const page = () => {
   return (
-    <section className="w-full min-h-screen md:mt-8 mt-0">
-      <div className="w-full lg:h-auto md:h-[90vh] h-[90vh]  relative md:mt-0 top-0 mb-0">
+    <section className="w-full min-h-screen mt-0">
+      <div className="w-full lg:h-auto md:h-[90vh] h-screen  relative md:mt-0 top-0 mb-0">
         <Image
           src={"/bg1black.svg"}
           alt="bannerimg"
@@ -29,7 +29,7 @@ const page = () => {
                 <h1 className="text-5xl text-white font-bold text-left font-grotesque">
                   Data Analytics
                 </h1>
-                <p className="text-whitetext text-md text-left">
+                <p className="text-whitetext font-sfprodisplay text-md text-left">
                   {`At Techwave, we recognize the immense power of data in shaping
                   business strategies and driving success. Our Data Analytics
                   services are designed to help you harness this power by
@@ -53,7 +53,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:h-auto lg:py-20 md:h-[100vh] h-[90vh] relative lg:mt-6 md:mt-0 -mt-14 mb-0">
+      <div className="w-full lg:h-auto lg:py-20 md:h-[100vh] h-screen relative lg:mt-6 md:mt-0 -mt-14 mb-0">
         <div className="  w-full lg:px-12 md:px-4 px-4 h-full grid lg:grid-cols-2 grid-cols-1">
           <div className="w-full h-full flex items-center justify-center">
             <div className="flex flex-col space-y-4 md:w-[80%] w-full">
@@ -61,7 +61,7 @@ const page = () => {
                 <h1 className="text-3xl text-black md:w-[70%] w-full font-bold text-left font-grotesque">
                   Transforming insights into actions
                 </h1>
-                <p className="text-subtext text-md text-left font-grotesque w-[90%]">
+                <p className="text-subtext font-sfprodisplay text-md text-left w-[90%]">
                  {` In today's data-driven world, making informed decisions is
                   crucial for business success. Our Data Analytics services
                   provide the tools and expertise you need to collect, analyze,
@@ -78,21 +78,21 @@ const page = () => {
               alt="aboutus"
               width={100}
               height={100}
-              className={`object-contain absolute lg:bottom-0 md:bottom-16 bottom-20 left-2`}
+              className={`object-contain absolute lg:bottom-0 md:bottom-16 -bottom-10 left-0`}
             />
             <Image
               src={"/dataanalyticimage.svg"}
               alt="bannerimg"
               width={300}
               height={300}
-              className="object-contain z-50 absolute lg:bottom-0 md:bottom-20 bottom-0 md:left-24 left-14"
+              className="object-contain z-50 absolute lg:bottom-0 md:bottom-20 bottom-0 md:left-24 left-6"
             />
             <Image
               src={"/whatwedoright.svg"}
               alt="aboutus"
               width={50}
               height={50}
-              className={`object-contain absolute md:right-[18%] md:top-8 top-20`}
+              className={`object-contain absolute md:right-[18%] md:top-8 -top-24 right-0`}
             />
           </div>
         </div>
@@ -152,7 +152,7 @@ const page = () => {
                     <h2 className={`text-black text-sm font-semibold `}>
                       {item?.title}
                     </h2>
-                    <p className=" whitespace-normal text-subtext text-xs">
+                    <p className=" whitespace-normal font-sfprodisplay text-subtext text-xs">
                       {item?.descri}
                     </p>
                   </div>

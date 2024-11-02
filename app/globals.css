@@ -19,6 +19,7 @@ body {
 
 @layer base {
   :root {
+    --font-sfPro: "SfProDisplay", sans-serif;
     --font-grotesque: "Bricolage Grotesque", sans-serif;
     --font-geist-sans: "Geist Sans", sans-serif;
     --font-geist-mono: "Geist Mono", monospace;
@@ -30,7 +31,7 @@ body {
     --stroke: #666666;
     --whitesubtext: #888888;
     --subtext: #888888;
-    --stroke_btn:#B7CFFF;
+    --stroke_btn: #b7cfff;
 
     --background: var(--white);
     --foreground: var(--black);
@@ -135,10 +136,8 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   min-height: 100vh;
 }
 
-
 .content {
   flex: 1; /* Allow the content to grow and fill the space */
   padding-top: 60px; /* Adjust based on header height */
   padding-bottom: 60px; /* Adjust based on footer height */
 }
-

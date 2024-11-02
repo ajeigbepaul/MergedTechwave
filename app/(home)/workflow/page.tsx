@@ -71,7 +71,7 @@ const Workflow = () => {
               <h2 className={`text-black px-2 text-[18px] font-grotesque font-bold `}>
                 {"Planning"}
               </h2>
-              <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-subtext text-xs">
+              <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-subtext text-xs font-sfprodisplay">
                 {
                   "We create a detailed roadmap to guide the project from concept to completion, setting clear milestones and aligning our strategy with your business objectives."
                 }
@@ -103,7 +103,7 @@ const Workflow = () => {
               <h2 className={`text-white text-[18px] font-grotesque px-2 font-bold `}>
                 {"Design & Development"}
               </h2>
-              <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-white text-xs">
+              <p className=" px-2 lg:w-[50%] md:w-[80%] font-sfprodisplay w-full whitespace-normal text-white text-xs">
                 {
                   "Our design and development teams work closely to bring your product to life. From wireframes to prototypes, and development to testing, we ensure every detail is perfected."
                 }
@@ -131,7 +131,7 @@ const Workflow = () => {
               <h2 className={`text-white text-[18px] font-grotesque font-bold px-2  `}>
                 {"Deployment"}
               </h2>
-              <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-white text-xs">
+              <p className=" px-2 lg:w-[50%] md:w-[80%] font-sfprodisplay w-full whitespace-normal text-white text-xs">
                 {
                   "We ensure a smooth launch of your product, handling all technical setups and configurations. Our team remains on standby to address any immediate post-launch needs."
                 }
@@ -163,7 +163,7 @@ const Workflow = () => {
               <h2 className={`text-black  px-2 text-[18px] font-grotesque font-bold `}>
                 {"Ongoing Support & Optimization"}
               </h2>
-              <p className=" px-2 lg:w-[50%] md:w-[80%] w-full whitespace-normal text-subtext text-xs">
+              <p className=" px-2 lg:w-[50%] font-sfprodisplay md:w-[80%] w-full whitespace-normal text-subtext text-xs">
                 {
                   "Our work doesn’t end at launch. We continue to support you with updates, optimizations, and analytics to keep your product running smoothly and adapting to market changes."
                 }

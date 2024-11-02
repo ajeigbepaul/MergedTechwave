@@ -69,6 +69,7 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
+        sfprodisplay:"var(--font-sfPro)",
         grotesque: "var(--font-grotesque)", // Bricolage Grotesque
         geistSans: "var(--font-geist-sans)", // Geist Sans
         geistMono: "var(--font-geist-mono)", // Geist Mono

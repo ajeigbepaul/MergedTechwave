@@ -6,8 +6,8 @@ import React from "react";
 
 const ProductDev = () => {
   return (
-    <section className="w-full min-h-screen relative md:mt-6 -mt-8">
-      <div className="w-full lg:h-[90vh] md:h-[70vh] h-[60vh] mt-8">
+    <section className="w-full min-h-screen relative  -mt-8">
+      <div className="w-full lg:h-[90vh] md:h-[70vh] h-screen mt-8">
           <Image
             src={"/productdevelopment.png"}
             alt="bannerimg"
@@ -24,7 +24,7 @@ const ProductDev = () => {
             <h1 className="md:text-5xl text-5xl text-white font-bold text-left font-grotesque">
               Powerful Digital Solutions
             </h1>
-            <p className="text-whitetext text-md text-left">
+            <p className="text-whitetext text-md text-left font-sfprodisplay">
               {`Building user-centric web and mobile applications tailored to your business needs.`}
             </p>
             <Button
@@ -55,7 +55,7 @@ const ProductDev = () => {
                   height={8}
                   className={`w-6 h-6 rounded-full object-cover `}
                 />
-                <h2 className="text-black text-[15px]  font-bold">
+                <h2 className="text-black text-[15px] font-sfprodisplay  font-bold">
                   {item?.title}
                 </h2>
               </div>
@@ -80,7 +80,7 @@ const ProductDev = () => {
                 <h1 className="text-2xl text-black font-bold text-left font-grotesque w-[60%]">
                   Ready to Elevate Your Digital Presence?
                 </h1>
-                <p className="text-[16px] text-subtext text-left w-full">
+                <p className="text-[16px] text-subtext font-sfprodisplay text-left w-full">
                   {`Partner with Techwave for expert web and mobile app development services that drive success. Contact us today to discuss your project and start your journey towards a powerful digital solution.`}
                 </p>
               </div>

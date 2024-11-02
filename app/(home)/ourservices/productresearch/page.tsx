@@ -9,11 +9,11 @@ const ProductResearch = () => {
     <section className="w-full min-h-screen max-w-6xl mx-auto flex flex-col md:mt-4 mt-10">
       <div className="md:p-14 p-2 px-4 w-full lg:h-auto md:h-[50vh] h-[60vh]">
         <div className="w-full flex items-center space-x-2 md:mt-10 mt-2 mb-5 md:mb-0">
-          <h2 className="text-black font-semibold text-lg">RESEARCH</h2>
+          <h2 className="text-black font-semibold text-lg font-sfprodisplay">RESEARCH</h2>
           <div className="w-4 h-4 bg-gold rounded-full" />
-          <h2 className="text-black font-semibold text-lg">IDEATE</h2>
+          <h2 className="text-black font-semibold text-lg font-sfprodisplay">IDEATE</h2>
           <div className="w-4 h-4 bg-gold rounded-full" />
-          <h2 className="text-black font-semibold text-lg">LAUNCH</h2>
+          <h2 className="text-black font-semibold text-lg font-sfprodisplay">LAUNCH</h2>
         </div>
         <div className="md:flex items-center justify-between">
           <div className="flex md:hidden w-[40%]">
@@ -67,14 +67,14 @@ const ProductResearch = () => {
           </div>
         </div>
       </div>
-      <div className="w-full md:auto h-auto pb-10 md:px-12 px-4 lg:mt-40 md:mt-20">
+      <div className="w-full md:auto h-auto pb-10 md:px-12 px-4 lg:mt-52 md:mt-20">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
           <div className="flex flex-col space-y-4 mb-8 md:mb-0">
             <h1 className="text-lg text-brandcolor">Our Services</h1>
             <h1 className="md:w-[75%] w-full text-black text-3xl font-bold font-grotesque">
               Comprehensive Product Development at Techwave
             </h1>
-            <p className="md:w-[80%] w-full text-subtext text-[16px] mt-10  ">
+            <p className="md:w-[80%] w-full text-subtext font-sfprodisplay text-[16px] mt-10  ">
               Creating a successful product requires more than just an idea. It
               involves thorough research, thoughtful design, and meticulous
               development. At Techwave, we specialize in guiding you through

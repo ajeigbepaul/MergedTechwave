@@ -153,7 +153,7 @@ const Services = () => {
               <h2 className={`text-black font-bold text-lg`}>
                 Product Management
               </h2>
-              <p className={`text-black text-sm md:w-[45%]`}>
+              <p className={`text-black text-sm md:w-[45%] font-sfprodisplay`}>
                 At Techwave, our product management services are designed to
                 guide your product from concept to market success. We manage the
                 entire product lifecycle with a focus on strategic planning,

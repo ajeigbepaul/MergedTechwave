@@ -12,7 +12,7 @@ const Contactus = () => {
             <h1 className="text-black mb-5 text-lg font-bold w-[50%]">
               Consult with our product analytics expert
             </h1>
-            <p className="text-xs text-subtext">
+            <p className="text-xs text-subtext font-sfprodisplay">
               Have questions about pricing, plans, or Growthly? Fill out the
               form, and our product analytics expert will get in touch with you
               directly.

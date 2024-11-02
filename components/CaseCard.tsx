@@ -59,7 +59,7 @@ const CaseCard = ({
 
       {/* Description with dynamic text size and font weight */}
       <p
-        className={`p-4 text-black/80 ${styles.textSize} ${styles.descrFontWeight}`}
+        className={`p-4 text-black/80 font-sfprodisplay ${styles.textSize} ${styles.descrFontWeight}`}
       >
         {descr}
       </p>
@@ -103,7 +103,7 @@ const cardStyles: {
     sideImagePosition: "bottom-0 right-8",
     sideImageSize: { width: 130, height: 150 },
     textSize: "text-sm",
-    descrFontWeight: "font-semibold",
+    descrFontWeight: "font-medium",
   },
   2: {
     iconSize: { width: 350, height: 80 },
@@ -113,7 +113,7 @@ const cardStyles: {
     sideImagePosition: "bottom-0 right-0",
     sideImageSize: { width: 150, height: 130 },
     textSize: "text-sm",
-    descrFontWeight: "font-semibold",
+    descrFontWeight: "font-medium",
   },
   3: {
     iconSize: { width: 180, height: 90 },
@@ -123,7 +123,7 @@ const cardStyles: {
     sideImagePosition: "bottom-3 right-8",
     sideImageSize: { width: 140, height: 160 },
     textSize: "text-sm",
-    descrFontWeight: "font-semibold",
+    descrFontWeight: "font-medium",
   },
   4: {
     iconSize: { width: 120, height: 110 },
@@ -133,7 +133,7 @@ const cardStyles: {
     sideImagePosition: "bottom-2 right-6",
     sideImageSize: { width: 150, height: 180 },
     textSize: "text-sm",
-    descrFontWeight: "font-semibold",
+    descrFontWeight: "font-medium",
   },
   // default: {
   //   iconSize: { width: 170, height: 100 },

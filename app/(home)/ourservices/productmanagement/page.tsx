@@ -5,7 +5,7 @@ import React from "react";
 
 const ProductManagement = () => {
   return (
-    <section className="w-full min-h-screen md:mt-8 -mt-2">
+    <section className="w-full min-h-screen">
       <div className="w-full lg:h-[60vh] md:h-[50vh] h-auto relative">
         <Image
           src={"/productmanagmentgradient.svg"}
@@ -49,7 +49,7 @@ const ProductManagement = () => {
               />
             </span>{" "}
           </h1>
-          <p className="md:text-xl text-sm text-subtext text-center md:text-left">
+          <p className="md:text-xl text-sm font-sfprodisplay text-subtext text-center md:text-left">
             End-to-end product management to ensure your vision meets market
             needs.
           </p>
@@ -59,7 +59,7 @@ const ProductManagement = () => {
           />
         </div>
       </div>
-      <div className="w-full max-w-4xl mx-auto lg:h-auto md:h-[40vh] h-auto mt-20 px-4 md:pb-14 md:mt-0 mb-14 md:mb-0 ">
+      <div className="w-full max-w-4xl mx-auto lg:h-auto md:h-[40vh] h-auto mt-24 px-4 md:pb-14 md:mt-0 mb-14 md:mb-0 ">
         <div className="w-full h-full flex items-center justify-center">
           <div className="w-[1400px] lg:ml-20 md:ml-4 ">
             <Image
@@ -74,10 +74,10 @@ const ProductManagement = () => {
       </div>
       <div className="w-full max-w-5xl  mx-auto lg:h-auto md:h-[50vh] h-auto mt-20 md:mt-0 px-4 md:px-4 lg:px-0">
         <div className="w-full h-full flex flex-col items-center justify-center">
-          <h2 className="text-3xl ont-grotesque font-bold text-black text-center md:text-left">
+          <h2 className="md:text-3xl text-2xl font-grotesque font-bold text-black text-center md:text-left">
             Our Expertise, Your Advantage
           </h2>
-          <p className="text-[#18181880]  text-2xl md:w-[70%] w-full text-center mt-3 font-grotesque">
+          <p className="text-[#18181880] font-sfprodisplay  md:text-2xl text-xl md:w-[70%] w-full text-center mt-3">
             Comprehensive solutions tailored to transform your ideas
           </p>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-24">
@@ -105,7 +105,7 @@ const ProductManagement = () => {
                 <h2 className={`text-black text-2xl mt-6 font-grotesque px-2 font-bold `}>
                   {item?.title}
                 </h2>
-                <p className=" px-2 whitespace-normal text-subtext text-[12px] mt-6 w-[89%]">
+                <p className=" px-2 whitespace-normal font-sfprodisplay text-subtext text-[12px] mt-6 w-[89%]">
                   {item?.descri}
                 </p>
               </div>
@@ -127,11 +127,11 @@ const ProductManagement = () => {
           <div className="w-full h-full flex items-start md:mt-4 mt-10 justify-center">
             <div className="flex flex-col space-y-4 w-[100%]">
               <div className="flex flex-col space-y-6 mb-6">
-                <h1 className="md:text-3xl text-xl text-black leading-loose font-extrabold text-left font-grotesque md:w-[90%] w-full">
+                <h1 className="md:text-3xl text-xl text-black md:leading-snug leading-normal font-extrabold text-left font-grotesque md:w-[90%] w-full">
                   At Techwave, we bridge the gap between great ideas and
                   successful product launches. 
                 </h1>
-                <p className="text-[16px] text-subtext text-left w-[92%]">
+                <p className="text-[16px] text-subtext font-sfprodisplay text-left w-[92%]">
                   {`Our product management services are designed to guide you through every stage of development—from initial concept to market release—ensuring that every step aligns with your goals and customer needs.`}
                 </p>
               </div>

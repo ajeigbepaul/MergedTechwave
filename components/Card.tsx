@@ -58,7 +58,7 @@ const Card = ({
       <p
         className={`${
           id === 2 ? "text-normal text-subtext" : " text-whitetext"
-        }  whitespace-normal text-xs pb-2 ${addedStyleD}`}
+        }  whitespace-normal text-xs pb-2 font-sfprodisplay ${addedStyleD}`}
       >
         {descri}
       </p>

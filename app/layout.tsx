@@ -22,6 +22,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const sfProdisplay = localFont({
+  src: "./fonts/SfProDisplay.otf",
+  variable: "--font-sfPro",
+  weight: "400",
+});
 
 export const metadata: Metadata = {
   title: "Techwave",
@@ -40,7 +45,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" type="image/png" /> 
       </head> */}
       <body
-        className={`${secondaryFont.variable} ${geistSans.variable} ${geistMono.variable} min-h-screen flex flex-col`}
+        className={`${secondaryFont.variable} ${geistSans.variable} ${geistMono.variable} ${sfProdisplay.variable}  min-h-screen font flex flex-col`}
       >
         <Header />
         {children}

@@ -31,7 +31,7 @@ const About = () => {
   };
 
   return (
-    <section className="w-full max-w-5xl mx-auto min-h-screen px-4 lg:px-0 lg:mt-14 md:mt-14 mt-0">
+    <section className="w-full max-w-5xl mx-auto min-h-screen px-2 lg:px-0 lg:mt-14 md:mt-14 mt-0">
       <div className="w-full relative lg:pt-14 md:pt-0 pt-52 ">
         {loading && ( // Show loader skeleton when loading
           <div className="absolute inset-0 flex items-start justify-start bg-gray-200">
@@ -71,7 +71,7 @@ const About = () => {
       </div>
 
       {/* "Why Us?" Section */}
-      <div className="w-full lg:h-auto md:h-[auto] flex flex-col items-center justify-center lg:mt-48 md:mt-48 my-12 lg:px-4 px-4 ">
+      <div className="w-full lg:h-auto md:h-[auto] flex flex-col items-center justify-center lg:mt-48 md:mt-48 my-12 lg:px-4 px-2 ">
         <div className="w-40">
           <h2 className="text-black text-2xl font-semibold font-grotesque text-center">
             Why us?
@@ -116,7 +116,7 @@ const About = () => {
               </h2>
             </div>
             <div>
-              <p className="lg:text-2xl text-sm text-subtext font-medium lg:w-[90%] font-grotesque">
+              <p className="lg:text-2xl text-sm text-subtext font-medium lg:w-[90%] font-sfprodisplay">
                 As change agents we are on a mission to create innovative
                 products that inspire positive change and bring light to lives
                 across the globe.
@@ -131,7 +131,7 @@ const About = () => {
       </div>
 
       {/* What We Do Section */}
-      <div className="w-full lg:h-auto lg:px-4 px-4 md:h-[50vh] h-auto pt-40 md:pt-0 pb-10 flex flex-col lg:mt-32 md:mt-24 mt-48 space-x-2 p-0 relative ">
+      <div className="w-full lg:h-auto lg:px-4 px-2 md:h-[50vh] h-auto pt-40 md:pt-0 pb-10 flex flex-col lg:mt-32 md:mt-24 mt-48 space-x-2 p-0 relative ">
         <div className="w-full md:hidden flex mb-0 absolute left-8">
           <Image
             src={"/aboutuscardl.png"}
@@ -152,7 +152,7 @@ const About = () => {
             alt="aboutus"
             width={50}
             height={50}
-            className="object-contain absolute  left-[80%] bottom-60"
+            className="object-contain absolute  left-[75%] bottom-60"
           />
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4">
@@ -163,7 +163,7 @@ const About = () => {
                 <span className="text-white">Wha</span>t we do
               </p>
             </div>
-            <p className="w-[90%] text-subtext text-[16px] mt-8">
+            <p className="w-[90%] text-subtext text-[16px] mt-8 font-sfprodisplay">
               Techwave is a faith-based startup dedicated to developing and
               managing innovative products that address specific needs and
               challenges, with the goal of bringing light to businesses and
@@ -231,7 +231,7 @@ const About = () => {
       </div>
 
       {/* Work Process Section */}
-      <div className="w-full lg:h-auto h-auto flex flex-col space-y-5 lg:mt-60 mt-40 max-md:mt-20 lg:px-4 px-4">
+      <div className="w-full lg:h-auto h-auto flex flex-col space-y-5 lg:mt-60 mt-40 max-md:mt-20 lg:px-4 px-2">
         <Heading
           name="Work process"
           desc="We work step by step to achieve better growth results."

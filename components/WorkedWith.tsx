@@ -50,7 +50,7 @@ const WorkedWith: React.FC = () => {
             >
               {" "}
               {workwith.map((w, i) => (
-                <SwiperSlide key={i} className="relative h-[100%]  flex items-center justify-center">
+                <SwiperSlide key={i} className="relative h-[100%] flex items-center justify-center">
                   <WorkWUSlider img={w} />
                 </SwiperSlide>
               ))}

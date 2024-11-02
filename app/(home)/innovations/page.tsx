@@ -17,7 +17,7 @@ const Innovation = () => {
                 <h1 className="text-4xl text-black leading-10 font-bold text-left font-grotesque md:w-[85%] w-full">
                   Pioneering Solutions and Leading Innovation 
                 </h1>
-                <p className="text-[16px] text-subtext text-left w-full">
+                <p className="text-[16px] font-sfprodisplay text-subtext text-left w-full">
                   {`Leading the charge in technological advancements and creative breakthroughs.`}
                 </p>
               </div>
@@ -114,8 +114,8 @@ const Innovation = () => {
                     Empowering Online Safety, Blocking Access to Pornographic
                     Content
                   </h1>
-                  <p className="text-[14px] text-subtext text-left w-full">
-                    {`SacredEyes is a powerful app designed to combat easy access to pornography by automatically blocking browsers from accessing adult content. Once installed, it disables access to all known pornographic sites and prevents redirects to such content, helping users maintain a safer and healthier online environment.`}
+                  <p className="text-[14px] font-sfprodisplay text-subtext text-left w-full">
+                    {`SacredEyes is  a powerful app designed to combat easy access to pornography by automatically blocking browsers from accessing adult content. Once installed, it disables access to all known pornographic sites and prevents redirects to such content, helping users maintain a safer and healthier online environment.`}
                   </p>
                 </div>
                 <Link href={"https://sacredeyes.org/"} target="_blank">
@@ -156,16 +156,15 @@ const Innovation = () => {
                     className="object-cover"
                   />
                   <h1 className="text-2xl text-black font-bold text-left font-grotesque w-[73%]">
-                    Empowering Online Safety, Blocking Access to Pornographic
-                    Content
+                    Connecting Tutors, Students, and Academies
                   </h1>
-                  <p className="text-[14px] text-subtext text-left w-full">
-                    {`SacredEyes is a powerful app designed to combat easy access to pornography by automatically blocking browsers from accessing adult content. Once installed, it disables access to all known pornographic sites and prevents redirects to such content, helping users maintain a safer and healthier online environment.`}
+                  <p className="text-[14px] font-sfprodisplay text-subtext text-left w-full">
+                    {`Centrilearn is an innovative learning platform that seamlessly connects tutors, students, and academy owners, revolutionizing education through enhanced accessibility and collaboration.`}
                   </p>
                 </div>
                 {/* <Button
                   icon2
-                  name="Book a session"
+                  name="View Website"
                   buttonClass="p-3 w-fit bg-[#162BA5] text-white text-[14px]"
                 /> */}
               </div>
