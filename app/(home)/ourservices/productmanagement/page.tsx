@@ -35,7 +35,7 @@ const ProductManagement = () => {
           height={40}
           className="absolute  object-contain md:left-[34%] left-[18%] md:bottom-2 -bottom-16"
         />
-        <div className="w-full max-w-3xl md:px-4 lg:px-4 absolute md:top-[20%] top-[10%] lg:left-[23%] md:left-0 left-0 flex items-center justify-center flex-col">
+        <div className="w-full max-w-3xl md:px-4 lg:px-4 px-2 absolute md:top-[20%] top-[10%] lg:left-[23%] md:left-0 left-0 flex items-center justify-center flex-col">
           <h1 className="text-black relative leading-relaxed text-center font-extrabold lg:text-4xl md:text-5xl text-3xl font-grotesque lg:w-[100%] md:w-full w-[83%]">
             Transforming Ideas into Market-Ready Products
             <span className="absolute lg:left-[36%] md:left-[56%] top-[28%] lg:top-[32%] lg:w-32 md:w-72 w-20">
@@ -49,7 +49,7 @@ const ProductManagement = () => {
               />
             </span>{" "}
           </h1>
-          <p className="md:text-xl text-sm font-sfprodisplay text-subtext text-center md:text-left">
+          <p className="md:text-xl text-sm font-sfprodisplay text-subtext text-center md:text-left px-2">
             End-to-end product management to ensure your vision meets market
             needs.
           </p>
