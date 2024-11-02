@@ -55,7 +55,7 @@ const ProductManagement = () => {
           </p>
           <Button
             name="Book a session"
-            buttonClass="p-3 w-40 mt-4 bg-[#02775C] text-white"
+            buttonClass="p-3 md:w-40 w-full mt-4 bg-[#02775C] text-white"
           />
         </div>
       </div>

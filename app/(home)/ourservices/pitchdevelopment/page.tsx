@@ -110,9 +110,9 @@ const Pitch = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:h-[h-50vh] md:h-[60vh] h-auto bg-[#F9FBFF] lg:px-24 md:px-4 px-4  flex flex-col items-center justify-center lg:mt-20 md:mt-10 mt-52">
+      <div className="w-full lg:h-[h-50vh] md:h-[60vh] h-auto bg-[#F9FBFF] lg:px-24 md:px-4 px-4  flex flex-col items-center justify-center lg:mt-20 md:mt-10 mt-56">
         <div className="md:w-fit w-full ">
-          <h2 className="text-black md:text-2xl text-lg  font-bold font-grotesque text-center">
+          <h2 className="text-black md:text-2xl text-lg  text-left font-bold font-grotesque md:text-center">
             What we offer under pitch development
           </h2>
           <div className="w-24 h-10 relative">
@@ -122,7 +122,7 @@ const Pitch = () => {
               alt="aboutus"
               width={32}
               height={32}
-              className={`object-contain absolute -top-1 md:left-[0%] left-[20%]`}
+              className={`object-contain absolute -top-1 md:left-[0%] left-[7%]`}
             />
           </div>
         </div>

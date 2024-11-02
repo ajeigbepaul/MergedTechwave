@@ -58,7 +58,7 @@ const page = () => {
           <div className="w-full h-full flex items-center justify-center">
             <div className="flex flex-col space-y-4 md:w-[80%] w-full">
               <div className="flex flex-col space-y-6 mb-6">
-                <h1 className="text-3xl text-black md:w-[70%] w-full font-bold text-left font-grotesque">
+                <h1 className="md:text-3xl text-2xl text-black md:w-[70%] w-full font-bold text-left font-grotesque">
                   Transforming insights into actions
                 </h1>
                 <p className="text-subtext font-sfprodisplay text-md text-left w-[90%]">

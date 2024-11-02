@@ -7,7 +7,7 @@ import React from "react";
 const ProductDev = () => {
   return (
     <section className="w-full min-h-screen relative  -mt-8">
-      <div className="w-full lg:h-[90vh] md:h-[70vh] h-screen mt-8">
+      <div className="w-full lg:h-[90vh] md:h-[70vh] h-[80vh] mt-8">
           <Image
             src={"/productdevelopment.png"}
             alt="bannerimg"
@@ -17,11 +17,11 @@ const ProductDev = () => {
           />
         
         <div className="absolute md:w-[70%] w-full md:top-[10%] top-32 md:px-24 px-4">
-          <div className="flex flex-col space-y-8 mb-6">
-            <h1 className="md:text-5xl text-5xl text-white font-bold text-left font-grotesque">
+          <div className="flex flex-col md:space-y-8 space-y-5 mb-0">
+            <h1 className="md:text-5xl text-3xl text-white font-bold text-left font-grotesque">
               Transforming Ideas into
             </h1>
-            <h1 className="md:text-5xl text-5xl text-white font-bold text-left font-grotesque">
+            <h1 className="md:text-5xl text-3xl text-white font-bold text-left font-grotesque">
               Powerful Digital Solutions
             </h1>
             <p className="text-whitetext text-md text-left font-sfprodisplay">
@@ -34,7 +34,7 @@ const ProductDev = () => {
           </div>
         </div>
       </div>
-      <div className="w-full  lg:h-[70vh] md:h-[60vh] h-[80vh] bg-[#F9FBFF] flex items-center justify-center mt-0  md:mt-0 lg:mt-0 lg:py-14 py-24 md:pt-0 px-4">
+      <div className="w-full  lg:h-[70vh] md:h-[60vh] h-[80vh] bg-[#F9FBFF] flex items-center justify-center  md:mt-0 lg:mt-0 mt-10 lg:py-14 py-24 md:pt-0 px-4">
         <div className="w-full max-w-3xl mx-auto -mt-10">
           <Heading
             noborder
@@ -77,7 +77,7 @@ const ProductDev = () => {
           <div className="w-full h-full flex items-start md:mt-24 mt-10 justify-center">
             <div className="flex flex-col space-y-4 w-[100%]">
               <div className="flex flex-col space-y-6 mb-6">
-                <h1 className="text-2xl text-black font-bold text-left font-grotesque w-[60%]">
+                <h1 className="md:text-2xl text-lg text-black font-bold text-left font-grotesque w-[60%]">
                   Ready to Elevate Your Digital Presence?
                 </h1>
                 <p className="text-[16px] text-subtext font-sfprodisplay text-left w-full">
@@ -86,7 +86,7 @@ const ProductDev = () => {
               </div>
               <Button
                 name="Book a session"
-                buttonClass="p-3 w-40 bg-brandcolor text-white"
+                buttonClass="p-3 md:w-40 w-full bg-brandcolor text-white"
               />
             </div>
           </div>

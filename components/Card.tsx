@@ -36,7 +36,7 @@ const Card = ({
       <div className=" w-full">
         <div
           className={`rounded-full bg-white flex items-center justify-center ${
-            isborder ? isborder : "w-8 h-8"
+            isborder ? isborder : "md:w-8 md:h-8 h-12 w-12"
           } `}
         >
           <Image
@@ -44,7 +44,7 @@ const Card = ({
             alt="cardicon"
             width={8}
             height={8}
-            className={`w-6 h-6 rounded-full object-cover `}
+            className={`md:w-6 md:h-6 w-10 h-10 rounded-full object-cover `}
           />
         </div>
       </div>
